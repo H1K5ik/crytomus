@@ -17,6 +17,6 @@ import * as process from 'node:process';
     }),
   ],
   providers: [TokenService],
-  exports: [JwtModule],
+  exports: [JwtModule, TokenService],
 })
 export class TokenModule {}
